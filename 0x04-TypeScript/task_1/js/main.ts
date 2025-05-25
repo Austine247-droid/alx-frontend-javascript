@@ -17,7 +17,7 @@ const teacher1: Teacher = {
 
 console.log(teacher1.firstName); // Alice
 
-// ❌ Error: Cannot assign to 'firstName' because it is a read-only property
+//  Error: Cannot assign to 'firstName' because it is a read-only property
 // teacher1.firstName = "Bob";
 
 // Write an interface named Directors that extends Teacher. It requires an attribute named numberOfReports(number)
